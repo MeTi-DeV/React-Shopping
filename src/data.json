@@ -1,0 +1,69 @@
+{
+  "products": [
+    {
+      "_id": "dress1",
+      "title": "Midi sundress with shirring detail",
+      "image": "images/dress1.jpg",
+      "description": "About Dress 1",
+      "price": 29.9,
+      "availablesizes": ["X","L","XL", "XXL"]
+    },
+    {
+      "_id": "dress2",
+      "title": "Midi sundress with ruched front",
+      "image": "images/dress2.jpg",
+      "description": "About Dress 2",
+      "price": 39.9,
+      "availablesizes": ["XL", "XXL"]
+    },
+    {
+      "_id": "dress3",
+      "title": "Midi dress in pink ditsy floral",
+      "image": "images/dress3.jpg",
+      "description": "About Dress 3",
+      "price": 19.9,
+      "availablesizes": ["L","M","XL"]
+    },
+    {
+      "_id": "dress5",
+      "title": "Dress 5",
+      "image": "images/dress5.jpg",
+      "description": "About Dress 5",
+      "price": 29.9,
+      "availablesizes": ["L","XL", "XXL"]
+    },
+    {
+      "_id": "dress6",
+      "title": "Dress 6",
+      "image": "images/dress6.jpg",
+      "description": "About Dress 6",
+      "price": 49.9,
+      "availablesizes": ["S","XL"]
+    },
+    {
+      "_id": "dress7",
+      "title": "Dress 7",
+      "image": "images/dress7.jpg",
+      "description": "About Dress 7",
+      "price": 25.9,
+      "availablesizes": ["M","S","L"]
+    },
+    {
+      "_id": "dress8",
+      "title": "Dress 8",
+      "image": "images/dress8.jpg",
+      "description": "About Dress 8",
+      "price": 26.9,
+      "availablesizes": ["M","L","XL"]
+    },
+    {
+      "_id": "dress9",
+      "title": "Dress 9",
+      "image": "images/dress9.jpg",
+      "description": "About Dress 9",
+      "price": 31.9,
+      "availablesizes": ["X","L","XL"]
+    }
+    
+  ]
+}
