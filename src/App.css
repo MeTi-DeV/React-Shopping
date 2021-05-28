@@ -1,12 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
 .grid-container {
-    display: grid;
-    grid-template-areas: "header"
+  display: grid;
+  grid-template-areas:
+    "header"
     "main" "footer";
-    grid-template-rows: 5rem 1fr 5rem;
-    grid-template-columns:1fr;
-  }
-  header {
-    grid-area: header;
-    background-color:#203040
-  }
-  
+  grid-template-rows: 5rem 1fr 5rem;
+  grid-template-columns: 1fr;
+  height: 100%;
+  margin-bottom: 2rem;
+}
+a{
+  text-decoration: none;
+  text-decoration-skip: none;
+}
+input,
+body,
+select,
+textarea,
+li {
+  font-weight: 600;
+  font-size: 62.5%;
+  list-style-type: none;
+  text-decoration: none;
+  font-size: 1.7rem;
+  font-family: 'Montserrat', sans-serif;
+  height: 100vh;
+  margin: 0;
+}
+.content{
+  display: flex;
+  flex-wrap: wrap;
+}
+.main-content{
+flex: 3 65rem;
+}
+
+.sidebar{
+  flex: 1 20rem;
+}
+header {
+  grid-area: header;
+  display: flex;
+  align-items: center;
+
+  background-color: #203040;
+}
+header a {
+  padding-left: 40px;
+  color: #fff;
+  font-size: 2rem;
+  text-decoration: none;
+}
+header a:hover {
+  color: #ce5e02;
+}
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-area: footer;
+  color: #fff;
+  background-color: #203040;
+}
